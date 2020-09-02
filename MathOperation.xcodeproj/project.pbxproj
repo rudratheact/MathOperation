@@ -13,6 +13,7 @@
 		A915646424FF790100F43539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A915646224FF790100F43539 /* Main.storyboard */; };
 		A915646624FF790300F43539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A915646524FF790300F43539 /* Assets.xcassets */; };
 		A915646924FF790300F43539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A915646724FF790300F43539 /* LaunchScreen.storyboard */; };
+		A915647124FF7A1E00F43539 /* MathOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A915647024FF7A1E00F43539 /* MathOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A915646524FF790300F43539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A915646824FF790300F43539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A915646A24FF790300F43539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A915647024FF7A1E00F43539 /* MathOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A915645C24FF790100F43539 /* AppDelegate.swift */,
 				A915645E24FF790100F43539 /* SceneDelegate.swift */,
+				A915647024FF7A1E00F43539 /* MathOperations.swift */,
 				A915646024FF790100F43539 /* ViewController.swift */,
 				A915646224FF790100F43539 /* Main.storyboard */,
 				A915646524FF790300F43539 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A915646124FF790100F43539 /* ViewController.swift in Sources */,
+				A915647124FF7A1E00F43539 /* MathOperations.swift in Sources */,
 				A915645D24FF790100F43539 /* AppDelegate.swift in Sources */,
 				A915645F24FF790100F43539 /* SceneDelegate.swift in Sources */,
 			);
